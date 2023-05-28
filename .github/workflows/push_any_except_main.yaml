@@ -21,4 +21,4 @@ jobs:
         with:
           push: true
           file: Dockerfile
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/diploma_12:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/diploma_12:${{ env.BRANCH_NAME }}
