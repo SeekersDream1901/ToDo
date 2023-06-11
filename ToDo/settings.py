@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'social_django',
     # Apps
     'core',
+    'goals',
 ]
 
 MIDDLEWARE = [
@@ -142,5 +143,5 @@ SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['email']
 
 AUTHENTICATION_BACKENDS = (
     'social_core.backends.vk.VKOAuth2',
-    'django.contrib.auth.backends.ModelBackend'
+    'django.contrib.auth.backends.ModelBackend',
 )
