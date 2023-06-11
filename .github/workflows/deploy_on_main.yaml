@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - dev_36
 
 jobs:
   build:
